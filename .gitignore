@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/.vs/LearningCPP/FileContentIndex
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/LearningCPP/v17
