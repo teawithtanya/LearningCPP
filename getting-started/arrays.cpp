@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 	// Declared then initialized.
 	float nums[3];
-	nums[0] = 1.5; nums[1] = 2.75; nums[2] = 3.25;
+	nums[0] = 1.5;
+	nums[1] = 2.75;
+	nums[2] = 3.25;
 
 	// Declared and initialized.
-	char name[5] = { 'm', 'i', 'k', 'e', '\0' };
-	int coords[2][3] = { {1,2,3}, {4,5,6} };
+	char name[5] = {'m', 'i', 'k', 'e', '\0'};
+	int coords[2][3] = {{1, 2, 3}, {4, 5, 6}};
 
 	cout << "nums[0]: " << nums[0] << endl;
 	cout << "nums[1]: " << nums[1] << endl;

@@ -2,16 +2,19 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     int nil = 0, num = 0, max = 1;
     char cap = 'A', low = 'a';
 
     cout << "nil: " << nil << ", num: " << num << ", max: " << max << endl;
-    cout << "cap: " << cap << ", low: " << low << endl << endl;
+    cout << "cap: " << cap << ", low: " << low << endl
+         << endl;
 
     cout << "Equality comparisons: ";
     cout << "(nil == num)? " << (nil == num) << endl;
-    cout << "(cap == low)? " << (cap == low) << endl << endl;
+    cout << "(cap == low)? " << (cap == low) << endl
+         << endl;
 
     cout << "Inequality comparison: ";
     cout << "(nil != max)? " << (nil != max) << endl;
