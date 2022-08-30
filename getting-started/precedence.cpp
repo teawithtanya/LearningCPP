@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     int num = 1 + 4 * 3;
     cout << "Default order: 1 + 4 * 3 = " << num << endl;
     num = (1 + 4) * 3;
